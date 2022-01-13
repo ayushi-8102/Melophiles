@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Varela+Round&display=swap');
+body{
+    background-color: peachpuff;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    font-family: 'Moon Dance', cursive;
+    
+    font-size: medium;
+}
+nav ul li{
+    padding: 0 14px;
+}
+nav ul{
+   display : flex;
+   align-items: center; 
+    list-style: none;
+    height: 85px;
+    background-color:hsla(28, 56%, 72%, 0.493);
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 9px;
+     
+   
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 23px auto;
+    width: 70%;
+    padding: 34px;
+    border-radius: 12px;
+    background-image: url(finalop.gif);
+    background-size: 760px;
+
+    height :fit-content;
+}
+.Brand img{
+     width: 50px;
+} 
+.Brand{
+    display : flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size: larger;
+}
+.bottom{
+    position: sticky;
+     background-color: hsla(28, 56%, 72%, 0.493);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     bottom: 0;
+
+     color: white;
+     height: 150px;
+}
+#myProgressBar{
+    width: 80vw; 
+}
+.songItem{
+       height: 50px;
+       display: flex;
+       background-color:wheat;
+       opacity: 1;
+       color: black;
+       width: 90%; 
+       margin: 12px 0; 
+       justify-content: space-between;
+       align-items: center;
+       border-radius: 34px;
+       padding: 0 30px;
+}
+
+.songItem img{
+   width: 45px;
+   margin: 0 23px;
+   border-radius: 34px;
+}
+.timespan{
+    margin: 0 23px;
+    padding:  60px 0;
+}
+.timestamp i{
+    cursor: pointer;
+    margin: 0 13px;
+   
+}
+.icons{
+    margin-top:20px;
+    margin-left: 40px;
+    color: black;
+}
+.songitemcontainer{
+    margin-top: 50px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #504c3cd3;
+    font-weight: bolder;
+}
+.songInfo{
+    position :absolute;
+    left: 12px;
+    color:  black;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: 'Moon Dance', cursive;
+    display: inline-block;
+    
+   
+}
+.songInfo img{
+    width: 100px;
+    margin-top: 32px;
+
+
+}
